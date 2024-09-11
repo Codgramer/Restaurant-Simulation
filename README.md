@@ -3,10 +3,11 @@ Self Project
 
 A Java program for event-based simulation of the billing counter of a burger restaurant (McMohan's Burger)
 
-Goal:
+**Goal:**
 We want to develop a simulation system for a big and famous burger restaurant called McMahon's Burgers, which gets a lot of customers leading to long billing and food preparation queues. We would like to know some statistics like average waiting time, average queue length, etc., so that proper steps to improve customer convenience can be taken.
 
-Description
+**Description**
+
 Customers arrive randomly and are automatically assigned contiguous integer IDs, starting from 1
 A new customer always joins the billing queue with the smallest length at that time (If there are multiple billing queues with the same smallest lengths, then the lowest numbered queue of those is chosen by the customer)
 If two customers arrive at the same time, one of them joins the queue first, then the next one joins (We need to decide whom to add first)
